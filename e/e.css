@@ -1,0 +1,47 @@
+h1 {
+    background-color: rgba(40, 40, 68, 0.959);
+    color: white;
+    /* border-bottom: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid black;
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/17520.jpg);
+}
+main{
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: rgb(26, 19, 53);
+    color: linen;
+}
+.blob {
+	background: black;
+	border-radius: 100%;
+	margin: 10px;
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(2);
+	animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+h6 {
+right: 0;
+}
